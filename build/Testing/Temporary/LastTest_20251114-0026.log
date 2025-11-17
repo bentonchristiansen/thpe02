@@ -1,0 +1,23 @@
+Start testing: Nov 14 12:36 MST
+----------------------------------------------------------
+22/22 Testing: StringTracker::clear - Clear with 0 in StringTracker
+22/22 Test: StringTracker::clear - Clear with 0 in StringTracker
+Command: "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/stringtest" "StringTracker::clear - Clear with 0 in StringTracker"
+Directory: /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build
+"StringTracker::clear - Clear with 0 in StringTracker" start time: Nov 14 12:36 MST
+Output:
+----------------------------------------------------------
+Filters: "StringTracker::clear - Clear with 0 in StringTracker"
+Randomness seeded to: 819855271
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StringTracker::clear - Clear with 0 in StringTracker" end time: Nov 14 12:36 MST
+"StringTracker::clear - Clear with 0 in StringTracker" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 14 12:36 MST

@@ -1,0 +1,5 @@
+/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build/CMakeFiles/stringtest.dir
+/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build/CMakeFiles/CreateTGZ.dir
+/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build/CMakeFiles/test.dir
+/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build/CMakeFiles/edit_cache.dir
+/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build/CMakeFiles/rebuild_cache.dir

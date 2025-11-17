@@ -1,0 +1,5 @@
+if(EXISTS "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build/stringtest-b12d07c_tests.cmake")
+  include("/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build/stringtest-b12d07c_tests.cmake")
+else()
+  add_test(stringtest_NOT_BUILT-b12d07c stringtest_NOT_BUILT-b12d07c)
+endif()

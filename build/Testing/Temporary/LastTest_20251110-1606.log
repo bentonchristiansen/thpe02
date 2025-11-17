@@ -1,0 +1,23 @@
+Start testing: Nov 10 09:07 MST
+----------------------------------------------------------
+7/7 Testing: StringTracker::size - Empty StringTracker
+7/7 Test: StringTracker::size - Empty StringTracker
+Command: "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/stringtest" "StringTracker::size - Empty StringTracker"
+Directory: /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build
+"StringTracker::size - Empty StringTracker" start time: Nov 10 09:07 MST
+Output:
+----------------------------------------------------------
+Filters: "StringTracker::size - Empty StringTracker"
+Randomness seeded to: 953516836
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StringTracker::size - Empty StringTracker" end time: Nov 10 09:07 MST
+"StringTracker::size - Empty StringTracker" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 10 09:07 MST

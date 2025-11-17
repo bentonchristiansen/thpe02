@@ -1,0 +1,11 @@
+# ninja log v5
+3	596	1763148409880347277	CMakeFiles/stringtest.dir/src/stringtracker1.cpp.o	275fa946fa6f94a
+3	556	1763148409840350206	CMakeFiles/stringtest.dir/src/stringtracker2.cpp.o	4ef15993f7125165
+3	1449	1763148410732284552	CMakeFiles/stringtest.dir/src/stringtrackertests1.cpp.o	b75be5ad2bd18ca
+1375	1696	1763148991227215662	/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/stringtest	f6d3b1b76797035
+2	475	1762993356094678200	CMakeFiles/stringtest.dir/src/main.cpp.o	7e3c3e75830932da
+2	394	1762993661735558176	CMakeFiles/main.dir/src/main.cpp.o	1ea72ee2dcfb354d
+1375	1696	1763148991227215662	stringtest-b12d07c_tests.cmake	f6d3b1b76797035
+1375	1696	1763148991227215662	/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build/stringtest-b12d07c_tests.cmake	f6d3b1b76797035
+4	1568	1763148410848275929	CMakeFiles/stringtest.dir/src/stringtrackertests2.cpp.o	ad156611a62bf86d
+2	1375	1763148990907216084	CMakeFiles/stringtest.dir/src/insttests.cpp.o	b5baf7fefb27cc88
