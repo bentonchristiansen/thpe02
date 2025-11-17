@@ -13,8 +13,6 @@ int main(int argc, char**argv)
     openOutFile(fout1, argv[2]);
     openOutFile(fout2, argv[2]);
 
-    
-
     fin.close();
     fout1.close();
     fout2.close();
