@@ -21,6 +21,18 @@ void checkArgc(int argc)
     return;
 }
 
+void cleanWord(std::string &word)
+{
+
+    return;
+}
+
+void intoTracker(std::string &word, StringTracker &wordTracker)
+{
+
+    return;
+}
+
 void openInFile(std::ifstream &fin, char fileName[])
 {
     // opens file, makes sure file opened succesfully or ourputs error message
@@ -48,5 +60,11 @@ void openOutFile(std::ofstream &fout, char fileName[])
         exit(1);
     }
     std::cout << "File, " << fileName << ", opened succesfully." << std::endl;
+    return;
+}
+
+void readWords(std::ifstream &fin, StringTracker &wordTracker)
+{
+
     return;
 }
