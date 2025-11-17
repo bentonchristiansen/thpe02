@@ -4,13 +4,18 @@ void checkArgc(int argc)
 {
     // makes sure that launch command has 3 arguement, else returns usage
     // statement and triggers error flag.
-    if (argc != 3)
+    if (argc != 4)
     {
-        std::cout << "Usage: thpe01 inputfile outputfile" << std::endl;
-        std::cout << "inputfile - filename for the file containing integers to"
-                  << " process." << std::endl;
-        std::cout << "outputfile - filename for the file to contain the"
-                  << " results." << std::endl;
+        std::cout << "Usage: thpe01 inputfile outputfile1 outputfile2" 
+                  << std::endl;
+        std::cout << "inputfile - text file containing the words to be "
+                  << " processed." << std::endl;
+        std::cout << "outputfile1 - filename for the file that contains words"
+                  << " listed alphabetically by their first character." 
+                  << std::endl;
+        std::cout << "outputfile2 - filename for the file that contains words"
+                  << " listed in descending order by their frequency count." 
+                  << std::endl;
         exit(1);
     }
     return;
