@@ -29,6 +29,12 @@ void cleanWord(std::string &word)
 
 void intoTracker(std::string &word, StringTracker &wordTracker)
 {
+    //Increments count, then adds string to tracker.
+    //This prevents an if statement because no error will be thrown if the word 
+    //has not been added yet, and will be added after. Same thing the other way
+    //around.
+    wordTracker.incrementCount(word);
+    wordTracker.addString(word);
 
     return;
 }
@@ -65,6 +71,18 @@ void openOutFile(std::ofstream &fout, char fileName[])
 
 void readWords(std::ifstream &fin, StringTracker &wordTracker)
 {
+    //Intializing temp string.
+    std::string temp;
+
+    //while fin can go into temp string
+    while(fin >> temp)
+    {
+        //cleans temp string
+        cleanWord(temp);
+
+        //puts into tracker or increments.
+        intoTracker(temp, wordTracker);
+    }
 
     return;
 }
