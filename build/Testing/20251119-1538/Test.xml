@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20251119-1538-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.28.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="T-SMD1039432"
+	OSRelease="6.6.87.2-microsoft-standard-WSL2"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="15841"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1996.81"
+	>
+	<Testing>
+		<StartDateTime>Nov 19 08:38 MST</StartDateTime>
+		<StartTestTime>1763566730</StartTestTime>
+		<TestList/>
+		<EndDateTime>Nov 19 08:38 MST</EndDateTime>
+		<EndTestTime>1763566730</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
