@@ -19,5 +19,4 @@ void openOutFile(std::ofstream &fout, char fileName[]);
 
 void readWords(std::ifstream &fin, StringTracker &wordTracker);
 
-
 #endif
