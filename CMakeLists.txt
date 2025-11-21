@@ -41,10 +41,11 @@ target_sources(thpe02 PRIVATE src/stringtracker.h)
 target_sources(thpe02 PRIVATE src/stringtracker1.cpp)
 target_sources(thpe02 PRIVATE src/stringtracker2.cpp)
 target_sources(thpe02 PRIVATE src/thpe02.h)
+target_sources(thpe02 PRIVATE src/thpe02.cpp)
 target_sources(thpe02 PRIVATE src/thpe02fn.cpp)
 
 target_compile_options(thpe02 PRIVATE -g -Wall -Wextra -Wshadow 
--Wpedantic -std=gnu++20 -Werror)
+-Wpedantic -std=gnu++20) # -Werror)
 target_link_libraries(thpe02 PRIVATE)
 
 include( Catch )

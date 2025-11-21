@@ -159,19 +159,25 @@ build cmake_object_order_depends_target_thpe02: phony || CMakeFiles/thpe02.dir
 
 build CMakeFiles/thpe02.dir/src/stringtracker1.cpp.o: CXX_COMPILER__thpe02_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp || cmake_object_order_depends_target_thpe02
   DEP_FILE = CMakeFiles/thpe02.dir/src/stringtracker1.cpp.o.d
-  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20
   OBJECT_DIR = CMakeFiles/thpe02.dir
   OBJECT_FILE_DIR = CMakeFiles/thpe02.dir/src
 
 build CMakeFiles/thpe02.dir/src/stringtracker2.cpp.o: CXX_COMPILER__thpe02_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp || cmake_object_order_depends_target_thpe02
   DEP_FILE = CMakeFiles/thpe02.dir/src/stringtracker2.cpp.o.d
-  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20
+  OBJECT_DIR = CMakeFiles/thpe02.dir
+  OBJECT_FILE_DIR = CMakeFiles/thpe02.dir/src
+
+build CMakeFiles/thpe02.dir/src/thpe02.cpp.o: CXX_COMPILER__thpe02_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02.cpp || cmake_object_order_depends_target_thpe02
+  DEP_FILE = CMakeFiles/thpe02.dir/src/thpe02.cpp.o.d
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20
   OBJECT_DIR = CMakeFiles/thpe02.dir
   OBJECT_FILE_DIR = CMakeFiles/thpe02.dir/src
 
 build CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o: CXX_COMPILER__thpe02_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fn.cpp || cmake_object_order_depends_target_thpe02
   DEP_FILE = CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o.d
-  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20
   OBJECT_DIR = CMakeFiles/thpe02.dir
   OBJECT_FILE_DIR = CMakeFiles/thpe02.dir/src
 
@@ -183,7 +189,7 @@ build CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o: CXX_COMPILER__thpe02_unscanned_D
 #############################################
 # Link the executable /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/thpe02
 
-build /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/thpe02: CXX_EXECUTABLE_LINKER__thpe02_Debug CMakeFiles/thpe02.dir/src/stringtracker1.cpp.o CMakeFiles/thpe02.dir/src/stringtracker2.cpp.o CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o
+build /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/thpe02: CXX_EXECUTABLE_LINKER__thpe02_Debug CMakeFiles/thpe02.dir/src/stringtracker1.cpp.o CMakeFiles/thpe02.dir/src/stringtracker2.cpp.o CMakeFiles/thpe02.dir/src/thpe02.cpp.o CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/thpe02.dir
   POST_BUILD = :

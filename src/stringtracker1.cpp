@@ -109,48 +109,57 @@ void StringTracker::clear()
 void StringTracker::printPhrases(std::ostream &out) const
 {
     // initializes variables, sets width to 25 and centers the text to the left
-    int i = 0;
+    int i;
     int j;
     int n;
     Node *temp1;
     bool headerCheck;
+    bool firstHeaderCheck = true;
     std::string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    out << std::setw(25) << std::left;
 
     if (headptr == nullptr)
         return;
 
     // for loop to work through the alphabet
-    for (; i < 26; i++)
+    for (i = 0; i < 25; i++)
     {
         temp1 = headptr;
+        std::string tempc;
         headerCheck = false;
+        n = 0;
         while (temp1 != nullptr)
         {
-            n = 0;
+            tempc = tolower(alphabet[i]);
             // if first letter matches, print letter
-            if ((temp1->Value)[0] == alphabet[i] || (temp1->Value)[0] == tolower(alphabet[i]))
+            if ((temp1->Value).front() == alphabet[i] || (temp1->Value).front() 
+            == tempc.front())
             {
                 // if header hasn't been printed, print header;
                 if (headerCheck == false)
                 {
-                    out << std::endl
-                        << std::endl;
-                    for (j = 0; j < 80; j++)
+                    out << std::setw(0) << std::left;
+                    if( firstHeaderCheck == false)
+                        out << std::endl << std::endl;
+                    else
+                        firstHeaderCheck = false;
+                    for (j = 0; j < 75; j++)
                     {
                         out << '*';
                     }
 
                     out << std::endl
                         << "*  Phrases " << "Starting With: "
-                        << tolower(alphabet[i]) << std::endl;
+                        << tempc << std::endl;
 
-                    for (j = 0; j < 80; j++)
+                    for (j = 0; j < 75; j++)
                     {
                         out << '*';
                     }
                     headerCheck = true;
                 }
+
+                out << std::setw(25) << std::left;
+
                 // if n words printed divisible by 3, new line
                 if (n % 3 == 0)
                 {
@@ -160,9 +169,9 @@ void StringTracker::printPhrases(std::ostream &out) const
                 out << temp1->Value;
 
                 // increment Node & n.
-                temp1 = temp1->next;
                 n++;
             }
+            temp1 = temp1->next;
         }
     }
 
@@ -180,6 +189,7 @@ void StringTracker::printCounters(std::ostream &out) const
 
     Node *temp1 = headptr;
     bool headerCheck;
+    bool firstHeaderCheck = true;
     out << std::setw(25) << std::left;
 
     if (headptr == nullptr)
@@ -204,7 +214,7 @@ void StringTracker::printCounters(std::ostream &out) const
     }
 
     // go from max count til 1
-    for (j = max; j > min; j--)
+    for (j = max; j >= min; j--)
     {
         temp1 = headptr;
         headerCheck = false;
@@ -214,9 +224,12 @@ void StringTracker::printCounters(std::ostream &out) const
             // if no header for this count, print header
             if (temp1->count == j && headerCheck == false)
             {
-                out << std::endl
-                    << std::endl;
-                for (r = 0; r < 80; r++)
+                out << std::setw(0) << std::left;
+                if(firstHeaderCheck == false)
+                    out << std::endl << std::endl;
+                else
+                    firstHeaderCheck = false;
+                for (r = 0; r < 75; r++)
                 {
                     out << '*';
                 }
@@ -225,23 +238,27 @@ void StringTracker::printCounters(std::ostream &out) const
                     << "*  Phrases " << "With Counts Of: "
                     << j << std::endl;
 
-                for (r = 0; r < 80; r++)
+                for (r = 0; r < 75; r++)
                 {
                     out << '*';
                 }
                 headerCheck = true;
             }
+            out << std::setw(25) << std::left;
             // if n words printed divisible by 3, new line
-            if (n % 3 == 0)
-            {
-                out << std::endl;
-            }
             // print Value
-            out << temp1->Value;
+            if (temp1->count == j)
+            {
+                if (n % 3 == 0)
+                {
+                    out << std::endl;
+                }
+                out << temp1->Value;
+                n++;
+            }
 
             // increment Node & n.
             temp1 = temp1->next;
-            n++;
         }
     }
 

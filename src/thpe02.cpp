@@ -12,7 +12,7 @@ int main(int argc, char**argv)
     checkArgc(argc);
     openInFile(fin, argv[1]);
     openOutFile(fout1, argv[2]);
-    openOutFile(fout2, argv[2]);
+    openOutFile(fout2, argv[3]);
 
     //reads words into tracker.
     readWords(fin, wordTracker);
@@ -25,5 +25,6 @@ int main(int argc, char**argv)
     fin.close();
     fout1.close();
     fout2.close();
+
     return 0;
 }

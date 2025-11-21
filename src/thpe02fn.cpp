@@ -35,6 +35,10 @@ void cleanWord(std::string &word)
         word.pop_back();
     }
 
+    //converts word to all lowercase
+    std::transform(word.begin(), word.end(), word.begin(),
+                   [](unsigned char c) { return std::tolower(c); });
+
     return;
 }
 

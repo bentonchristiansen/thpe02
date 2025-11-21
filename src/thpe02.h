@@ -2,6 +2,7 @@
 #include <fstream>
 #include <cstring>
 #include <cctype>
+#include <algorithm>
 #include "stringtracker.h"
 
 #ifndef __THPE02__H
