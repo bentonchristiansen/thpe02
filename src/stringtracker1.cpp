@@ -174,7 +174,7 @@ void StringTracker::printPhrases(std::ostream &out) const
             temp1 = temp1->next;
         }
     }
-
+    out << std::endl;
     return;
 }
 
@@ -261,6 +261,6 @@ void StringTracker::printCounters(std::ostream &out) const
             temp1 = temp1->next;
         }
     }
-
+    out << std::endl;
     return;
 }
