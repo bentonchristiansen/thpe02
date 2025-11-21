@@ -243,7 +243,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Custom command for CMakeFiles/CreateTGZ
 
 build CMakeFiles/CreateTGZ | ${cmake_ninja_workdir}CMakeFiles/CreateTGZ: CUSTOM_COMMAND
-  COMMAND = cd /home/bentonchri/classes/fall2025/csc216/thpe/thpe02 && tar -zcvf thpe02.tgz src/* .vscode/* CMakeLists.txt
+  COMMAND = cd /home/bentonchri/classes/fall2025/csc216/thpe/thpe02 && tar -zcvf thpe02.tgz src/* .vscode/* CMakeLists.txt bugReport.pdf
   DESC = Create a tgz for submission
 
 # =============================================================================

@@ -58,6 +58,7 @@ set(TarSourceFiles
     src/*
     .vscode/*
     CMakeLists.txt
+    bugReport.pdf
 )
 
 add_custom_target(CreateTGZ
