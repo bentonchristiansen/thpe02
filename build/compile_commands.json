@@ -1,32 +1,74 @@
 [
 {
   "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
-  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -o CMakeFiles/stringtest.dir/src/stringtracker1.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/stringtest.dir/src/stringtracker1.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp",
   "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp",
   "output": "CMakeFiles/stringtest.dir/src/stringtracker1.cpp.o"
 },
 {
   "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
-  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -o CMakeFiles/stringtest.dir/src/stringtracker2.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/stringtest.dir/src/stringtracker2.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp",
   "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp",
   "output": "CMakeFiles/stringtest.dir/src/stringtracker2.cpp.o"
 },
 {
   "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
-  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -o CMakeFiles/stringtest.dir/src/stringtrackertests1.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtrackertests1.cpp",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/stringtest.dir/src/stringtrackertests1.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtrackertests1.cpp",
   "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtrackertests1.cpp",
   "output": "CMakeFiles/stringtest.dir/src/stringtrackertests1.cpp.o"
 },
 {
   "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
-  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -o CMakeFiles/stringtest.dir/src/stringtrackertests2.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtrackertests2.cpp",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/stringtest.dir/src/stringtrackertests2.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtrackertests2.cpp",
   "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtrackertests2.cpp",
   "output": "CMakeFiles/stringtest.dir/src/stringtrackertests2.cpp.o"
 },
 {
   "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
-  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -o CMakeFiles/stringtest.dir/src/insttests.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/insttests.cpp",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/stringtest.dir/src/insttests.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/insttests.cpp",
   "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/insttests.cpp",
   "output": "CMakeFiles/stringtest.dir/src/insttests.cpp.o"
+},
+{
+  "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/functiontest.dir/src/stringtracker1.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp",
+  "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp",
+  "output": "CMakeFiles/functiontest.dir/src/stringtracker1.cpp.o"
+},
+{
+  "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/functiontest.dir/src/stringtracker2.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp",
+  "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp",
+  "output": "CMakeFiles/functiontest.dir/src/stringtracker2.cpp.o"
+},
+{
+  "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/functiontest.dir/src/thpe02fn.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fn.cpp",
+  "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fn.cpp",
+  "output": "CMakeFiles/functiontest.dir/src/thpe02fn.cpp.o"
+},
+{
+  "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/functiontest.dir/src/thpe02fntests.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fntests.cpp",
+  "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fntests.cpp",
+  "output": "CMakeFiles/functiontest.dir/src/thpe02fntests.cpp.o"
+},
+{
+  "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/thpe02.dir/src/stringtracker1.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp",
+  "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp",
+  "output": "CMakeFiles/thpe02.dir/src/stringtracker1.cpp.o"
+},
+{
+  "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/thpe02.dir/src/stringtracker2.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp",
+  "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp",
+  "output": "CMakeFiles/thpe02.dir/src/stringtracker2.cpp.o"
+},
+{
+  "directory": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build",
+  "command": "/usr/bin/g++ -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror -o CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o -c /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fn.cpp",
+  "file": "/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fn.cpp",
+  "output": "CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o"
 }
 ]

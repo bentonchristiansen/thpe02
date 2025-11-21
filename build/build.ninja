@@ -51,31 +51,31 @@ build cmake_object_order_depends_target_stringtest: phony || CMakeFiles/stringte
 
 build CMakeFiles/stringtest.dir/src/stringtracker1.cpp.o: CXX_COMPILER__stringtest_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp || cmake_object_order_depends_target_stringtest
   DEP_FILE = CMakeFiles/stringtest.dir/src/stringtracker1.cpp.o.d
-  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
   OBJECT_DIR = CMakeFiles/stringtest.dir
   OBJECT_FILE_DIR = CMakeFiles/stringtest.dir/src
 
 build CMakeFiles/stringtest.dir/src/stringtracker2.cpp.o: CXX_COMPILER__stringtest_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp || cmake_object_order_depends_target_stringtest
   DEP_FILE = CMakeFiles/stringtest.dir/src/stringtracker2.cpp.o.d
-  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
   OBJECT_DIR = CMakeFiles/stringtest.dir
   OBJECT_FILE_DIR = CMakeFiles/stringtest.dir/src
 
 build CMakeFiles/stringtest.dir/src/stringtrackertests1.cpp.o: CXX_COMPILER__stringtest_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtrackertests1.cpp || cmake_object_order_depends_target_stringtest
   DEP_FILE = CMakeFiles/stringtest.dir/src/stringtrackertests1.cpp.o.d
-  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
   OBJECT_DIR = CMakeFiles/stringtest.dir
   OBJECT_FILE_DIR = CMakeFiles/stringtest.dir/src
 
 build CMakeFiles/stringtest.dir/src/stringtrackertests2.cpp.o: CXX_COMPILER__stringtest_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtrackertests2.cpp || cmake_object_order_depends_target_stringtest
   DEP_FILE = CMakeFiles/stringtest.dir/src/stringtrackertests2.cpp.o.d
-  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
   OBJECT_DIR = CMakeFiles/stringtest.dir
   OBJECT_FILE_DIR = CMakeFiles/stringtest.dir/src
 
 build CMakeFiles/stringtest.dir/src/insttests.cpp.o: CXX_COMPILER__stringtest_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/insttests.cpp || cmake_object_order_depends_target_stringtest
   DEP_FILE = CMakeFiles/stringtest.dir/src/insttests.cpp.o.d
-  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
   OBJECT_DIR = CMakeFiles/stringtest.dir
   OBJECT_FILE_DIR = CMakeFiles/stringtest.dir/src
 
@@ -96,6 +96,100 @@ build /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/stringtest string
   RESTAT = 1
   TARGET_FILE = /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/stringtest
   TARGET_PDB = stringtest.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target functiontest
+
+
+#############################################
+# Order-only phony target for functiontest
+
+build cmake_object_order_depends_target_functiontest: phony || CMakeFiles/functiontest.dir
+
+build CMakeFiles/functiontest.dir/src/stringtracker1.cpp.o: CXX_COMPILER__functiontest_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp || cmake_object_order_depends_target_functiontest
+  DEP_FILE = CMakeFiles/functiontest.dir/src/stringtracker1.cpp.o.d
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  OBJECT_DIR = CMakeFiles/functiontest.dir
+  OBJECT_FILE_DIR = CMakeFiles/functiontest.dir/src
+
+build CMakeFiles/functiontest.dir/src/stringtracker2.cpp.o: CXX_COMPILER__functiontest_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp || cmake_object_order_depends_target_functiontest
+  DEP_FILE = CMakeFiles/functiontest.dir/src/stringtracker2.cpp.o.d
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  OBJECT_DIR = CMakeFiles/functiontest.dir
+  OBJECT_FILE_DIR = CMakeFiles/functiontest.dir/src
+
+build CMakeFiles/functiontest.dir/src/thpe02fn.cpp.o: CXX_COMPILER__functiontest_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fn.cpp || cmake_object_order_depends_target_functiontest
+  DEP_FILE = CMakeFiles/functiontest.dir/src/thpe02fn.cpp.o.d
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  OBJECT_DIR = CMakeFiles/functiontest.dir
+  OBJECT_FILE_DIR = CMakeFiles/functiontest.dir/src
+
+build CMakeFiles/functiontest.dir/src/thpe02fntests.cpp.o: CXX_COMPILER__functiontest_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fntests.cpp || cmake_object_order_depends_target_functiontest
+  DEP_FILE = CMakeFiles/functiontest.dir/src/thpe02fntests.cpp.o.d
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  OBJECT_DIR = CMakeFiles/functiontest.dir
+  OBJECT_FILE_DIR = CMakeFiles/functiontest.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target functiontest
+
+
+#############################################
+# Link the executable /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/functiontest
+
+build /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/functiontest functiontest-b12d07c_tests.cmake | ${cmake_ninja_workdir}functiontest-b12d07c_tests.cmake: CXX_EXECUTABLE_LINKER__functiontest_Debug CMakeFiles/functiontest.dir/src/stringtracker1.cpp.o CMakeFiles/functiontest.dir/src/stringtracker2.cpp.o CMakeFiles/functiontest.dir/src/thpe02fn.cpp.o CMakeFiles/functiontest.dir/src/thpe02fntests.cpp.o | /usr/local/lib/libCatch2Main.a /usr/local/lib/libCatch2.a
+  FLAGS = -g
+  LINK_LIBRARIES = /usr/local/lib/libCatch2Main.a  /usr/local/lib/libCatch2.a
+  OBJECT_DIR = CMakeFiles/functiontest.dir
+  POST_BUILD = cd /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build && /usr/bin/cmake -D TEST_TARGET=functiontest -D TEST_EXECUTABLE=/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/functiontest -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D "TEST_PROPERTIES=SKIP_RETURN_CODE;4" -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=functiontest_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D TEST_DL_FRAMEWORK_PATHS= -D CTEST_FILE=/home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build/functiontest-b12d07c_tests.cmake -D ADD_TAGS_AS_LABELS=FALSE -P /usr/local/lib/cmake/Catch2/CatchAddTests.cmake
+  PRE_LINK = :
+  RESTAT = 1
+  TARGET_FILE = /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/functiontest
+  TARGET_PDB = functiontest.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target thpe02
+
+
+#############################################
+# Order-only phony target for thpe02
+
+build cmake_object_order_depends_target_thpe02: phony || CMakeFiles/thpe02.dir
+
+build CMakeFiles/thpe02.dir/src/stringtracker1.cpp.o: CXX_COMPILER__thpe02_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker1.cpp || cmake_object_order_depends_target_thpe02
+  DEP_FILE = CMakeFiles/thpe02.dir/src/stringtracker1.cpp.o.d
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  OBJECT_DIR = CMakeFiles/thpe02.dir
+  OBJECT_FILE_DIR = CMakeFiles/thpe02.dir/src
+
+build CMakeFiles/thpe02.dir/src/stringtracker2.cpp.o: CXX_COMPILER__thpe02_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/stringtracker2.cpp || cmake_object_order_depends_target_thpe02
+  DEP_FILE = CMakeFiles/thpe02.dir/src/stringtracker2.cpp.o.d
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  OBJECT_DIR = CMakeFiles/thpe02.dir
+  OBJECT_FILE_DIR = CMakeFiles/thpe02.dir/src
+
+build CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o: CXX_COMPILER__thpe02_unscanned_Debug /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/src/thpe02fn.cpp || cmake_object_order_depends_target_thpe02
+  DEP_FILE = CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o.d
+  FLAGS = -g -g -Wall -Wextra -Wshadow -Wpedantic -std=gnu++20 -Werror
+  OBJECT_DIR = CMakeFiles/thpe02.dir
+  OBJECT_FILE_DIR = CMakeFiles/thpe02.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target thpe02
+
+
+#############################################
+# Link the executable /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/thpe02
+
+build /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/thpe02: CXX_EXECUTABLE_LINKER__thpe02_Debug CMakeFiles/thpe02.dir/src/stringtracker1.cpp.o CMakeFiles/thpe02.dir/src/stringtracker2.cpp.o CMakeFiles/thpe02.dir/src/thpe02fn.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/thpe02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/thpe02
+  TARGET_PDB = thpe02.dbg
 
 
 #############################################
@@ -149,7 +243,11 @@ build CMakeFiles/CreateTGZ | ${cmake_ninja_workdir}CMakeFiles/CreateTGZ: CUSTOM_
 # =============================================================================
 # Target aliases.
 
+build functiontest: phony /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/functiontest
+
 build stringtest: phony /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/stringtest
+
+build thpe02: phony /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/thpe02
 
 # =============================================================================
 # Folder targets.
@@ -159,7 +257,7 @@ build stringtest: phony /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin
 #############################################
 # Folder: /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/build
 
-build all: phony /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/stringtest
+build all: phony /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/stringtest /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/functiontest /home/bentonchri/classes/fall2025/csc216/thpe/thpe02/bin/thpe02
 
 # =============================================================================
 # Built-in targets

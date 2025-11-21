@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,7 +34,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -41,15 +45,29 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CreateTGZ::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CreateTGZ-Debug-41437586a01b7e9da110.json",
+					"jsonFile" : "target-CreateTGZ-Debug-eff9bf00fafa843d103b.json",
 					"name" : "CreateTGZ",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "functiontest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-functiontest-Debug-217b20932528649d5c45.json",
+					"name" : "functiontest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "stringtest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-stringtest-Debug-2894fb4b93506cc3b4e5.json",
+					"jsonFile" : "target-stringtest-Debug-d2f24ca3b6c6bb06c275.json",
 					"name" : "stringtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thpe02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thpe02-Debug-e96fba3a567161830fea.json",
+					"name" : "thpe02",
 					"projectIndex" : 0
 				}
 			]
